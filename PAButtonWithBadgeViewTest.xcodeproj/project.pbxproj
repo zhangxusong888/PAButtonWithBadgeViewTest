@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A04D181C4E49CC00810433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A04D171C4E49CC00810433 /* main.m */; };
+		13A04D1B1C4E49CC00810433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A04D1A1C4E49CC00810433 /* AppDelegate.m */; };
+		13A04D1E1C4E49CC00810433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A04D1D1C4E49CC00810433 /* ViewController.m */; };
+		13A04D211C4E49CC00810433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A04D1F1C4E49CC00810433 /* Main.storyboard */; };
+		13A04D231C4E49CC00810433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A04D221C4E49CC00810433 /* Assets.xcassets */; };
+		13A04D261C4E49CC00810433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A04D241C4E49CC00810433 /* LaunchScreen.storyboard */; };
+		13A04D321C4E49EE00810433 /* PAButtonWithBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A04D2F1C4E49EE00810433 /* PAButtonWithBadgeView.m */; };
+		13A04D331C4E49EE00810433 /* PAButtonWithBadgeView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A04D301C4E49EE00810433 /* PAButtonWithBadgeView.xcassets */; };
+		13A04D341C4E49EE00810433 /* PAButtonWithBadgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A04D311C4E49EE00810433 /* PAButtonWithBadgeView.xib */; };
+		675649FFF3E748CE6C93C26D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9487EDF5A80DDF2E90B7A4D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13A04D131C4E49CC00810433 /* PAButtonWithBadgeViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAButtonWithBadgeViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A04D171C4E49CC00810433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13A04D191C4E49CC00810433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13A04D1A1C4E49CC00810433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13A04D1C1C4E49CC00810433 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13A04D1D1C4E49CC00810433 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13A04D201C4E49CC00810433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A04D221C4E49CC00810433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13A04D251C4E49CC00810433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13A04D271C4E49CC00810433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A04D2E1C4E49EE00810433 /* PAButtonWithBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAButtonWithBadgeView.h; sourceTree = "<group>"; };
+		13A04D2F1C4E49EE00810433 /* PAButtonWithBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAButtonWithBadgeView.m; sourceTree = "<group>"; };
+		13A04D301C4E49EE00810433 /* PAButtonWithBadgeView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PAButtonWithBadgeView.xcassets; sourceTree = "<group>"; };
+		13A04D311C4E49EE00810433 /* PAButtonWithBadgeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PAButtonWithBadgeView.xib; sourceTree = "<group>"; };
+		5E7C45229900C387C3191452 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6B34C3FA2D35A78775C7BF4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B9487EDF5A80DDF2E90B7A4D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A04D101C4E49CC00810433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675649FFF3E748CE6C93C26D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A04D0A1C4E49CC00810433 = {
+			isa = PBXGroup;
+			children = (
+				13A04D151C4E49CC00810433 /* PAButtonWithBadgeViewTest */,
+				13A04D141C4E49CC00810433 /* Products */,
+				1ACF83CCBA96D2C5B619182B /* Pods */,
+				A3245EE0784BB6DB1A5CF3F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13A04D141C4E49CC00810433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A04D131C4E49CC00810433 /* PAButtonWithBadgeViewTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A04D151C4E49CC00810433 /* PAButtonWithBadgeViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				13A04D2D1C4E49EE00810433 /* PAButtonWithBadgeView */,
+				13A04D191C4E49CC00810433 /* AppDelegate.h */,
+				13A04D1A1C4E49CC00810433 /* AppDelegate.m */,
+				13A04D1C1C4E49CC00810433 /* ViewController.h */,
+				13A04D1D1C4E49CC00810433 /* ViewController.m */,
+				13A04D1F1C4E49CC00810433 /* Main.storyboard */,
+				13A04D221C4E49CC00810433 /* Assets.xcassets */,
+				13A04D241C4E49CC00810433 /* LaunchScreen.storyboard */,
+				13A04D271C4E49CC00810433 /* Info.plist */,
+				13A04D161C4E49CC00810433 /* Supporting Files */,
+			);
+			path = PAButtonWithBadgeViewTest;
+			sourceTree = "<group>";
+		};
+		13A04D161C4E49CC00810433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A04D171C4E49CC00810433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A04D2D1C4E49EE00810433 /* PAButtonWithBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				13A04D2E1C4E49EE00810433 /* PAButtonWithBadgeView.h */,
+				13A04D2F1C4E49EE00810433 /* PAButtonWithBadgeView.m */,
+				13A04D301C4E49EE00810433 /* PAButtonWithBadgeView.xcassets */,
+				13A04D311C4E49EE00810433 /* PAButtonWithBadgeView.xib */,
+			);
+			path = PAButtonWithBadgeView;
+			sourceTree = "<group>";
+		};
+		1ACF83CCBA96D2C5B619182B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B34C3FA2D35A78775C7BF4D /* Pods.debug.xcconfig */,
+				5E7C45229900C387C3191452 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3245EE0784BB6DB1A5CF3F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9487EDF5A80DDF2E90B7A4D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A04D121C4E49CC00810433 /* PAButtonWithBadgeViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A04D2A1C4E49CC00810433 /* Build configuration list for PBXNativeTarget "PAButtonWithBadgeViewTest" */;
+			buildPhases = (
+				235D5C578D20B37AEB04651D /* Check Pods Manifest.lock */,
+				13A04D0F1C4E49CC00810433 /* Sources */,
+				13A04D101C4E49CC00810433 /* Frameworks */,
+				13A04D111C4E49CC00810433 /* Resources */,
+				DBA3C3DA3F1522DBC725685E /* Embed Pods Frameworks */,
+				4CFDC3D8EC09B6195073F6FE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAButtonWithBadgeViewTest;
+			productName = PAButtonWithBadgeViewTest;
+			productReference = 13A04D131C4E49CC00810433 /* PAButtonWithBadgeViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A04D0B1C4E49CC00810433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					13A04D121C4E49CC00810433 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 13A04D0E1C4E49CC00810433 /* Build configuration list for PBXProject "PAButtonWithBadgeViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13A04D0A1C4E49CC00810433;
+			productRefGroup = 13A04D141C4E49CC00810433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A04D121C4E49CC00810433 /* PAButtonWithBadgeViewTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A04D111C4E49CC00810433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A04D261C4E49CC00810433 /* LaunchScreen.storyboard in Resources */,
+				13A04D341C4E49EE00810433 /* PAButtonWithBadgeView.xib in Resources */,
+				13A04D331C4E49EE00810433 /* PAButtonWithBadgeView.xcassets in Resources */,
+				13A04D231C4E49CC00810433 /* Assets.xcassets in Resources */,
+				13A04D211C4E49CC00810433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		235D5C578D20B37AEB04651D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CFDC3D8EC09B6195073F6FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA3C3DA3F1522DBC725685E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A04D0F1C4E49CC00810433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A04D1E1C4E49CC00810433 /* ViewController.m in Sources */,
+				13A04D321C4E49EE00810433 /* PAButtonWithBadgeView.m in Sources */,
+				13A04D1B1C4E49CC00810433 /* AppDelegate.m in Sources */,
+				13A04D181C4E49CC00810433 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13A04D1F1C4E49CC00810433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A04D201C4E49CC00810433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13A04D241C4E49CC00810433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A04D251C4E49CC00810433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A04D281C4E49CC00810433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13A04D291C4E49CC00810433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A04D2B1C4E49CC00810433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B34C3FA2D35A78775C7BF4D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PAButtonWithBadgeViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PinaAn.PAButtonWithBadgeViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13A04D2C1C4E49CC00810433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7C45229900C387C3191452 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PAButtonWithBadgeViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PinaAn.PAButtonWithBadgeViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A04D0E1C4E49CC00810433 /* Build configuration list for PBXProject "PAButtonWithBadgeViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A04D281C4E49CC00810433 /* Debug */,
+				13A04D291C4E49CC00810433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A04D2A1C4E49CC00810433 /* Build configuration list for PBXNativeTarget "PAButtonWithBadgeViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A04D2B1C4E49CC00810433 /* Debug */,
+				13A04D2C1C4E49CC00810433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A04D0B1C4E49CC00810433 /* Project object */;
+}

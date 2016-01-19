@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PAButtonWithBadgeView">
+            <connections>
+                <outlet property="badgeImageView" destination="Rmv-iU-z6E" id="Qz2-I7-gws"/>
+                <outlet property="badgeView" destination="Afk-ME-Nz3" id="oeN-ad-v8a"/>
+                <outlet property="badgeViewConstraintX" destination="WmD-Xh-niP" id="NAb-2U-wFd"/>
+                <outlet property="badgeViewConstraintY" destination="QZb-vn-vRv" id="Gge-hn-gf3"/>
+                <outlet property="containerView" destination="iN0-l3-epB" id="782-he-yWH"/>
+                <outlet property="iconButton" destination="I93-dN-Kss" id="Wwk-bX-HeQ"/>
+                <outlet property="iconImageView" destination="TXW-9Q-i0n" id="zHn-sP-0Lh"/>
+                <outlet property="numberLabel" destination="Fkf-fP-t8d" id="ioe-gh-Ijq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I93-dN-Kss">
+                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <action selector="iconButtonTouched:" destination="-1" eventType="touchUpInside" id="RpV-7U-hh0"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="badge_button_icon" translatesAutoresizingMaskIntoConstraints="NO" id="TXW-9Q-i0n">
+                    <rect key="frame" x="20" y="18" width="19" height="23"/>
+                    <animations/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Afk-ME-Nz3">
+                    <rect key="frame" x="31.5" y="11.5" width="17" height="17"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="badge_button_badge" translatesAutoresizingMaskIntoConstraints="NO" id="Rmv-iU-z6E">
+                            <rect key="frame" x="0.0" y="0.0" width="17" height="17"/>
+                            <animations/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fkf-fP-t8d">
+                            <rect key="frame" x="2.5" y="5" width="12.5" height="7.5"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Fkf-fP-t8d" firstAttribute="centerY" secondItem="Afk-ME-Nz3" secondAttribute="centerY" id="29D-oV-g0Z"/>
+                        <constraint firstItem="Rmv-iU-z6E" firstAttribute="centerY" secondItem="Afk-ME-Nz3" secondAttribute="centerY" id="AnE-TD-iNh"/>
+                        <constraint firstAttribute="bottom" secondItem="Rmv-iU-z6E" secondAttribute="bottom" id="D7V-cs-qF3"/>
+                        <constraint firstItem="Fkf-fP-t8d" firstAttribute="centerX" secondItem="Afk-ME-Nz3" secondAttribute="centerX" id="KIP-CI-4a8"/>
+                        <constraint firstItem="Rmv-iU-z6E" firstAttribute="leading" secondItem="Afk-ME-Nz3" secondAttribute="leading" id="hky-7o-Xtm"/>
+                        <constraint firstItem="Rmv-iU-z6E" firstAttribute="top" secondItem="Afk-ME-Nz3" secondAttribute="top" id="qEf-FY-LjM"/>
+                        <constraint firstItem="Rmv-iU-z6E" firstAttribute="centerX" secondItem="Afk-ME-Nz3" secondAttribute="centerX" id="qMa-AI-hSu"/>
+                        <constraint firstAttribute="trailing" secondItem="Rmv-iU-z6E" secondAttribute="trailing" id="wES-vo-cMn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TXW-9Q-i0n" secondAttribute="trailing" constant="5" id="19f-Y7-G7X"/>
+                <constraint firstItem="TXW-9Q-i0n" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="42J-rK-1iz"/>
+                <constraint firstItem="I93-dN-Kss" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="57D-wx-eN9"/>
+                <constraint firstItem="TXW-9Q-i0n" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BbV-cG-Qlj"/>
+                <constraint firstItem="I93-dN-Kss" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Fag-HZ-5Yu"/>
+                <constraint firstAttribute="trailing" secondItem="I93-dN-Kss" secondAttribute="trailing" id="KuP-sZ-gtp"/>
+                <constraint firstItem="TXW-9Q-i0n" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="PD2-XU-n1F"/>
+                <constraint firstItem="Afk-ME-Nz3" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-10" id="QZb-vn-vRv"/>
+                <constraint firstItem="Afk-ME-Nz3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="10" id="WmD-Xh-niP"/>
+                <constraint firstAttribute="bottom" secondItem="I93-dN-Kss" secondAttribute="bottom" id="aJz-Zp-iH8"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TXW-9Q-i0n" secondAttribute="bottom" constant="5" id="hVq-dQ-pAJ"/>
+                <constraint firstItem="TXW-9Q-i0n" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="oEV-vv-00b"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252" y="346"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="badge_button_badge" width="17" height="17"/>
+        <image name="badge_button_icon" width="19" height="23"/>
+    </resources>
+</document>
